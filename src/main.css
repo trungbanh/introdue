@@ -2,6 +2,17 @@ body {
     background-color: snow;
     margin:10px;
 }
+
+#linktofb{
+    color: blue;
+}
+.intro {
+    grid-area: intro;
+    padding-top: 20px;
+}
+.avata {
+    grid-area: avata;
+}
 .head {
     padding: 10px;
     margin: 20px;
@@ -10,14 +21,10 @@ body {
     width: auto;
     background-color: whitesmoke ;
     box-shadow: 2px 2px 5px 5px gray;
+    display: grid;
+    grid-template-areas: "avata intro intro intro intro intro intro"
 }
-#linktofb{
-    color: blue;
-}
-.intro {
-    padding-top: 20px;
-    margin-left: 50px;
-}
+
 h5 {
     padding-left: 30px;
 }
