@@ -9,6 +9,7 @@ body {
 .intro {
     grid-area: intro;
     padding-top: 20px;
+    margin-left: 10px;
 }
 .avata {
     grid-area: avata;
